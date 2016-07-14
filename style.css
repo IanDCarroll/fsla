@@ -17,6 +17,10 @@ div {
     text-align: left;
 }
 
+h1 { color: #2A3C24; }
+h2 { color: #2A3C24; }
+h3 { color: #2A3C24; }
+
 .title {
     background-color: #52D1DC;
 }
