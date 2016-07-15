@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Maptime LA: Neighborhood Council Map</title>
+	<meta charset="utf-8" />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+	<div id="map"></div>
+    <div id="info"><h1>Map of Los Angeles Neighborhood Councils</h1><p>Made by Vectoria, the maptime bear</p><p>This map shows the boundaries of the neighborhood councils as well
+        as the meeting locations for each council</p><p>Data from <a href="data.lacity.org">Los Angeles Open Data:</a> <a href="https://data.lacity.org/A-Well-Run-City/Neighborhood-Councils-Certified-/fu65-dz2f">NC Boundaries</a> <a href="https://data.lacity.org/A-Well-Run-City/Neighborhood-Council-Office-Location-Map/nnrh-gpbn">NC Meeting Locations</a></p><p>Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.</p><p>Find out how this map was made and make your own on <a href="https://github.com/maptimeLA/git_your_map_here">github</a></p></div>
+	<script>
+         var map = L.map('map')
+        .setView([34.052234, -118.243685], 10);
+        
+
+        //Code to add Basemap
+        var latimes = L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png').addTo(map);
+   
+        //Create locations for geojson
+        var nc_boundaries="data/nc_boundaries.geojson";
+        var nc_locations="data/nc_locations.geojson";
+        
+        //Styles and loads the Neighborhood Council Boundaries
+        var ncboundaries = $.getJSON(nc_boundaries, function(data) {
+        L.geoJson(data, {
+                style:{
+                fillColor:"#ff7f00",
+                color: "#ff7f00",
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.2,
+                clickable: false
+                }             
+        }).addTo(map).bringToBack();
+        });
+        
+        //Styles and loads the Meeting Locations of the Neighborhood Councils
+        var nclocations = $.getJSON(nc_locations, function(data) {
+        L.geoJson(data, {
+            style:{
+                radius: 5,
+                fillColor:"#ff7f00",
+                color: "#000",
+                weight: 0,
+                opacity: 0,
+                fillOpacity: 0.8
+                },
+            pointToLayer: function(feature, latlon) {
+            return L.circleMarker(latlon).bindPopup("<h2>"+feature.properties.neighborhood_council_name+"</h2>"+feature.properties.meeting_location);
+            }
+        }).addTo(map)
+        });
+       
+        
+        //This links to data.lacity.org 
+        /*
+       var pizzalocations = $.getJSON('https://data.lacity.org/resource/66es-k6kk.json', function(data) {
+	           $.each(data, function(index, value) {
+                L.circle([value.location_1.latitude,value.location_1.longitude],100,
+		            {
+                    color: '#5a8bc8',
+				    weight:0.0,
+				    fillColor: '#5a8bc8',
+				    fillOpacity: 1,
+				    }
+               ).addTo(map).bindPopup(value.business_name);
+  	     });
+        });
+        */
+	</script>
+</body>
+</html>
