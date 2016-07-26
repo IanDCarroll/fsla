@@ -152,22 +152,7 @@
         var latimes = L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png').addTo(map);
    
         //Create locations for geojson
-        var nc_boundaries="data/nc_boundaries.geojson";
         var nc_locations="data/nc_locations.geojson";
-        
-        //Styles and loads the Neighborhood Council Boundaries
-        var ncboundaries = $.getJSON(nc_boundaries, function(data) {
-        L.geoJson(data, {
-                style:{
-                fillColor:"#ff7f00",
-                color: "#ff7f00",
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 0.2,
-                clickable: false
-                }             
-        }).addTo(map).bringToBack();
-        });
         
         //Styles and loads the Meeting Locations of the Neighborhood Councils
         var nclocations = $.getJSON(nc_locations, function(data) {
