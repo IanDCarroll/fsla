@@ -27,11 +27,11 @@
 		<ul>
 		    <li><a href="http://nodeschool.io/los-angeles/">JavaScript / NodeSchool</a> / Saturdays, monthly / Westside /</li>
 			<ul>
-			    <li>front-end JS, back-end JS, lots of mentors, good space, lots of parking, pizza. Legit.</li> 
+			    <li>front-end JS, back-end JS, lots of mentors, good space, lots of parking, pizza. Legit.</li>
 			</ul>
-		    <li> <a href="http://www.meetup.com/LearnToCodeLA/events/231581165/">Learn to Code study group for JS:</a> 
+		    <li> <a href="http://www.meetup.com/LearnToCodeLA/events/231581165/">Learn to Code study group for JS:</a>
 			in Culver City - casual coworking style</li>
-		    <li><a href="http://www.meetup.com/Women-Who-Code-LA/events/231574006/">Women Who Code</a> one-off JS workshops:</li>     
+		    <li><a href="http://www.meetup.com/Women-Who-Code-LA/events/231574006/">Women Who Code</a> one-off JS workshops:</li>
 		    <li><a href="http://www.meetup.com/Girl-Develop-It-Los-Angeles/events/231261358/">GDI Mar Vista</a> study group: </li>
 	        </ul>
 	</div>
@@ -48,11 +48,11 @@
 	    <h2>Meetups hosted by dev shops:</h2>
 	</div>
 
-	<div class="vis">    
+	<div class="vis">
 	    <h3>Slightly more advanced full-stack things</h3>
 	        <ul>
-		    <li><a href="http://www.meetup.com/LA-Software-Workshops/">LA Software Workshops:</a> multilingual, full-stack application workshops / 
-		         some beginner, some intermediate/advanced / Downtown LA, weeknights and weekends - run by 8th Light consultancy in downtown </li> 
+		    <li><a href="http://www.meetup.com/LA-Software-Workshops/">LA Software Workshops:</a> multilingual, full-stack application workshops /
+		         some beginner, some intermediate/advanced / Downtown LA, weeknights and weekends - run by 8th Light consultancy in downtown </li>
 	        </ul>
 	</div>
 
@@ -68,12 +68,12 @@
 	    <h3>Ruby & Rails - East</h3>
 	        <ul>
 		    <li><a href="http://www.meetup.com/LearnToCodeLA/events/231125799/">Learn to Code LA: Beginner Ruby</a> South Pas Study Group </li>
-		    <li><a href="http://www.meetup.com/LearnToCodeLA/events/231402097/">Learn to Code LA: Monday Nights</a> 
+		    <li><a href="http://www.meetup.com/LearnToCodeLA/events/231402097/">Learn to Code LA: Monday Nights</a>
 			/ Front End Project workshop nights at Tom n Toms in Little Tokyo</li>
-		    <li><a href="http://www.meetup.com/LA-Eastside-Ruby-Rails-Study-Group/events/230709907/">LA Eastside Ruby:</a> 
+		    <li><a href="http://www.meetup.com/LA-Eastside-Ruby-Rails-Study-Group/events/230709907/">LA Eastside Ruby:</a>
 		        Problem Sets @ Panera Bakery in Glendale - longest running Ruby meetup in LA ever?! &#60;3</li>
 	    </ul>
-	
+
 	    <h3>Ruby & Rails - Mid</h3>
 	        <ul>
 		    <li><a href="http://www.meetup.com/rubyinhollywood/">Code Night:</a> Wednesdays, Larchmont, </li>
@@ -99,13 +99,13 @@
 	        </ul>
 
 	    <h3>Web - West</h3>
-	        <ul> 
-		    <li><a href="http://www.meetup.com/Women-Who-Code-LA/events/230863565/">Web Study Group,</a> 
-			Women Who Code at Crashspace (Culver City)</li> 
+	        <ul>
+		    <li><a href="http://www.meetup.com/Women-Who-Code-LA/events/230863565/">Web Study Group,</a>
+			Women Who Code at Crashspace (Culver City)</li>
 		    <li><a href="http://www.meetup.com/Pyladies-LA/">Python Office Hours</a> with pyladies at Crashspace (Culver City)</li>
 	        </ul>
 
-	    <h3>Web - South Bay</h3> 
+	    <h3>Web - South Bay</h3>
 	        <ul>
 		    <li><a href="http://www.meetup.com/code-district/">Code District,</a> various free one-off workshops in Torrance:</li>
 	        </ul>
@@ -145,30 +145,15 @@
 
 	<script>
          var map = L.map('map')
-        .setView([34.052234, -118.243685], 10);
-        
+        .setView([34.002234, -117.943685], 10);
+
 
         //Code to add Basemap
         var latimes = L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png').addTo(map);
-   
+
         //Create locations for geojson
-        var nc_boundaries="data/nc_boundaries.geojson";
-        var nc_locations="data/nc_locations.geojson";
-        
-        //Styles and loads the Neighborhood Council Boundaries
-        var ncboundaries = $.getJSON(nc_boundaries, function(data) {
-        L.geoJson(data, {
-                style:{
-                fillColor:"#ff7f00",
-                color: "#ff7f00",
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 0.2,
-                clickable: false
-                }             
-        }).addTo(map).bringToBack();
-        });
-        
+        var nc_locations="data/mu_locations.geojson";
+
         //Styles and loads the Meeting Locations of the Neighborhood Councils
         var nclocations = $.getJSON(nc_locations, function(data) {
         L.geoJson(data, {
@@ -181,13 +166,13 @@
                 fillOpacity: 0.8
                 },
             pointToLayer: function(feature, latlon) {
-            return L.circleMarker(latlon).bindPopup("<h2>"+feature.properties.neighborhood_council_name+"</h2>"+feature.properties.meeting_location);
+            return L.circleMarker(latlon).bindPopup("<h2>"+feature.id+"</h2>"+feature.properties["Meetup address"]);
             }
         }).addTo(map)
         });
-       
-        
-        //This links to data.lacity.org 
+
+
+        //This links to data.lacity.org
         /*
        var pizzalocations = $.getJSON('https://data.lacity.org/resource/66es-k6kk.json', function(data) {
 	           $.each(data, function(index, value) {
