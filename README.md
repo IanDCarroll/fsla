@@ -45,7 +45,7 @@ Follow these simple steps to get this page running locally, make improvements, a
 
 The Command Line, or Terminal is where a lot of the action of web development happens, and it's how you make git work. Becomming familiar enough with it to move around is a _major_ benefit to a developer.
 
-To find it on your system, go to your start bar, launcher, or apps tray and search for "Terminal" or "Command Line" It should be a scary black box icon. When you click it, it brings up a scary black window with only white text. It is not scary, it is your window to freedom beyond the bars of the graphical user interface (GUI). Everything you can do with a GUI you can do with the terminal. And also, qhite a bit more... (If you are worried you might break something, don't. You don't have the skill yet.)
+To find it on your system, go to your start bar, launcher, or apps tray and search for "Terminal" or "Command Line" It should be a scary black box icon. When you click it, it brings up a scary black window with only white text. It is not scary, it is your window to freedom beyond the bars of the graphical user interface (GUI). Everything you can do with a GUI you can do with the terminal. And also, quite a bit more... (If you are worried you might break something, don't. You don't have the skill yet.)
 
 Type and enter these commands and see what happens: 1.`ls` 2.`cd Desktop` 3.`ls` 4.`cd ..` 5.`ls` 
 
