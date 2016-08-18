@@ -32,16 +32,32 @@ __JSON__ is a data format that is created out of JavaScript Objects; associated 
 ### What needs to be done next?
 
 Please View the issues for stories to work on.
-If you want to propose an improvement, idenity a bug, or otherwise suggest something to improve, please open up a new issue.
+If you want to propose an improvement, identify a bug, or otherwise suggest something to improve, please open up a new issue.
 Or for the complete Product Backlog <a href+"https://www.pivotaltracker.com/n/projects/1787469">check out our Pivotal Tracker</a>
 
 We also need to populate the product backlog, and identify high value stories to work on next sprint.
 
 ### Getting Setup (For the new):
 
-- Coming soon, please keep an eye on this area.
+Follow these simple steps to get this page running locally, make improvements, and hand us back the awesomeness.
 
 #### Learning the command Line:
+
+The Command Line, or Terminal is where a lot of the action of web development happens, and it's how you make git work. Becomming familiar enough with it to move around is a _major_ benefit to a developer.
+
+To find it on your system, go to your start bar, launcher, or apps tray and search for "Terminal" or "Command Line" It should be a scary black box icon. When you click it, it brings up a scary black window with only white text. It is not scary, it is your window to freedom beyond the bars of the graphical user interface (GUI). Everything you can do with a GUI you can do with the terminal. And also, qhite a bit more... (If you are worried you might break something, don't. You don't have the skill yet.)
+
+Type and enter these commands and see what happens: 1.`ls` 2.`cd Desktop` 3.`ls` 4.`cd ..` 5.`ls` 
+
+Then play around a little. If you get lost, just type `cd` and hit enter.
+
+After that, check out <a href="https://www.codecademy.com/learn/learn-the-command-line">this codecademy course</a> on the command line.
+
+Once you've gotten about half-way through that, "No more training do you require. Already know you, that which you need." Proceed to getting set up with git and GitHub.
+
+If you have any questions about how to do something in the command line, go to google and search it. For example, suppose you forget how to make a new folder with the command line, start by searching `terminal make a new folder`. It won't give you a perfect answer immediately. You will have to be calm, aware and patient with yourself. And you must remember to _read what you look at!_. Googling is a skill in and of itself. But you can find out a lot this way. 
+
+"For my ally is the google search, and a powerful ally it is!" -Some wise old puppet
 
 #### Getting setup with git and Github:
 
