@@ -41,7 +41,7 @@ We also need to populate the product backlog, and identify high value stories to
 
 Follow these simple steps to get this page running locally, make improvements, and hand us back the awesomeness.
 
-#### Learning the command Line:
+#### Learning the Command Line:
 
 The Command Line, or Terminal is where a lot of the action of web development happens, and it's how you make git work. Becomming familiar enough with it to move around is a _major_ benefit to a developer.
 
@@ -60,6 +60,21 @@ If you have any questions about how to do something in the command line, go to g
 "For my ally is the google search, and a powerful ally it is!" -Some wise old puppet
 
 #### Getting setup with git and Github:
+
+GitHub is a place where open source developers can share their code and contribute to each other's projects. It's particularly good at this because it's set up to keep the code neat and managed though _Version Control_. Which means that if someone makes a mistake or add a change that breaks the code, you can roll back the change. And if anyone wants to fix a bug or add something, they can ask permission to do so with a _pull request_, and the owner of the project can accept and _merge_ the pull request or reject it. GitHub's _issues_ tab allows for developers to ask questions, flag bugs, organize work on new features, assign tasks, and more. Projects on GitHub are kept in _repositories_ under user or group profiles. The full feature list of git and GitHub are deep and interesting, but we'll start with the handful of ones you'll be using 90% of the time.
+
+git, on the other hand, is the code that runs locally on your computer. It interfaces with GitHub, but does version control on your computer. It's why you learned the command line if you didn't already know it. The command line is how you interface with git and get it to _clone_ a repository (kind of like a downloading music, but it isn't illegal) and _push_ your changes back to GitHub (kind of like uploading a cat video to facebook).
+
+ 1. <a href="https://github.com">Sign up for GitHub</a>, if you haven't already. It's free.
+ 2. <a href="https://help.github.com/articles/set-up-git/">Then follow these instruction</a> to set up git and link it to GitHub.
+ 
+Remember to read. 
+
+It sounds stupid, but I forget to read all the time. I skim and try to jump to the answer because I'm anxious to get it done. Don't. Read and observe. Take the time to let it soak in. 
+
+If you find yourself skimming or glazing over what you are look at, sit back, close your eyes and take a breath. Your brain is being overloaded with information and shutting down. Open your eyes and read one small thing at a time. Don't try to take it all in at once. It can help to pair with someone on this, or just read it aloud.
+
+If you're still having trouble, open up an issue! :smile: It might be that we're not explaining things well enough. Or it might be a real bug that needs to get fixed. You never know, but if you see something, say something! We can't fix what we don't know about. (And that counts as contributing to open source!)
 
 #### Forking this repository:
 
