@@ -61,7 +61,7 @@ If you have any questions about how to do something in the command line, go to g
 
 #### Getting setup with git and Github:
 
-GitHub is a place where open source developers can share their code and contribute to each other's projects. It's particularly good at this because it's set up to keep the code neat and managed though _Version Control_. Which means that if someone makes a mistake or add a change that breaks the code, you can roll back the change. And if anyone wants to fix a bug or add something, they can ask permission to do so with a _pull request_, and the owner of the project can accept and _merge_ the pull request or reject it. GitHub's _issues_ tab allows for developers to ask questions, flag bugs, organize work on new features, assign tasks, and more. Projects on GitHub are kept in _repositories_ under user or group profiles. The full feature list of git and GitHub are deep and interesting, but we'll start with the handful of ones you'll be using 90% of the time.
+GitHub is a place where open source developers can share their code and contribute to each other's projects. It's particularly good at this because it's set up to keep the code neat and managed though _Version Control_. Which means that if someone makes a mistake or add a change that breaks the code, you can roll back the change. And if anyone wants to fix a bug or add something, they can ask permission to do so with a _pull request_, and the owner of the project can accept and _merge_ the pull request or reject it. GitHub's _issues_ tab allows for developers to ask questions, flag bugs, organize work on new features, assign tasks, and more. Projects on GitHub are kept in _repositories_, AKA _repos_, under user or group profiles. The full feature list of git and GitHub are deep and interesting, but we'll start with the handful of ones you'll be using 90% of the time.
 
 git, on the other hand, is the code that runs locally on your computer. It interfaces with GitHub, but does version control on your computer. It's why you learned the command line if you didn't already know it. The command line is how you interface with git and get it to _clone_ a repository (kind of like a downloading music, but it isn't illegal) and _push_ your changes back to GitHub (kind of like uploading a cat video to facebook).
 
@@ -78,7 +78,37 @@ If you're still having trouble, open up an issue! :smile: It might be that we're
 
 #### Forking this repository:
 
+Forking is like copying the files from someone else's folder and pasting them into your own. This Allows you to work on them and make changes without making a mess to someone else's project. When it's time, you'll submit a pull request to have your changes merged back into the master project.
+
+But for now, Click `Fork`.
+![fork](https://cloud.githubusercontent.com/assets/14797009/17844601/eccbc01a-67ef-11e6-9f21-6af6c6f941e4.png)
+That's it. Your done.
+
+You'll find your forked version of the repo under your own profile with your name in front of it. That's what you'll be working with from now on.
+
+<a href="https://help.github.com/articles/fork-a-repo/">GitHub's guide to forking</a> is a great place to learn a little more. 
+
 #### Cloning this repository from the command line:
+
+Cloning is like forking your own repo. It makes a copy from the GitHub website to your local computer so that you can edit the files and _push_ the changes back to your repo on GitHub.
+
+If you didn't see the general instructions as you scrolled down from the link above, Here's a step-by-step guide to cloning this repo:
+
+ 1. In the browser, make sure you're in _your own profile_. It should say `https://github.com/MY_USER_NAME/fsla` __not__ `https://github.com/IanDCarroll/fsla` (Replace `MY_USER_NAME` with your github user name.)
+ 2. Click `Clone or download`; then Click the `Clipboard Button` ![clone](https://cloud.githubusercontent.com/assets/14797009/17844777/dea7572c-67f1-11e6-9ecd-a28f7a211b1d.png)
+ 3. Open up your Command Line.
+ 4. `$ cd` and hit `<ENTER>` to make sure you're in your home directory.
+ 5. `$ git clone `, but don't hit `<ENTER>` yet.
+  1. Right-mouse-click, then click `paste` from the drop-down menu. (Make sure there's a space between `clone` and the next thing.) It should look like `$ git clone https://github.com/MY_USER_NAME/fsla.git`.
+  2. Now hit `<ENTER>`.
+ 6. `$ ls` and hit `<ENTER>`. There should be a new directory called `fsla` there.
+ 7. `$ cd fsla` and hit `<ENTER>` to get into the new directory.
+ 8. Congratulations! You're now working with a local clone of a forked repository!
+
+Having trouble? 
+ - Did you follow the directions _to the letter?_ 
+ - Still having trouble? 
+ - Open up an issue! :smile: We're here to help you help us!
 
 #### Getting setup with the Atom code editor:
 
@@ -91,7 +121,7 @@ If you're still having trouble, open up an issue! :smile: It might be that we're
 ***
 ### The Scrum Team:
 
-- @machikoyasuda - Product Owner
-- @IanDCarroll - Development Team, ScrumMaster, Doccumentarian, Editorial Writer
-- @thebearingedge - Development Team
-- @caseytherocket - Development Team
+- <a href="https://github.com/machikoyasuda">@machikoyasuda</a> - Product Owner
+- <a href="https://github.com/IanDCarroll">@IanDCarroll</a> - Development Team, ScrumMaster, Doccumentarian, Editorial Writer
+- <a href="https://github.com/thebearingedge">@thebearingedge</a> - Development Team
+- <a href="https://github.com/caseytherocket">@caseytherocket</a> - Development Team
