@@ -37,11 +37,11 @@ Or for the complete Product Backlog <a href+"https://www.pivotaltracker.com/n/pr
 
 We also need to populate the product backlog, and identify high value stories to work on next sprint.
 
-### Getting Setup (For the new):
+## Getting Setup:
 
 Follow these simple steps to get this page running locally, make improvements, and hand us back the awesomeness.
 
-#### Learning the Command Line:
+### Learning the Command Line:
 
 The Command Line, or Terminal is where a lot of the action of web development happens, and it's how you make git work. Becomming familiar enough with it to move around is a _major_ benefit to a developer.
 
@@ -59,7 +59,7 @@ If you have any questions about how to do something in the command line, go to g
 
 "For my ally is the google search, and a powerful ally it is!" -Some wise old puppet
 
-#### Getting setup with git and Github:
+### Getting setup with git and Github:
 
 GitHub is a place where open source developers can share their code and contribute to each other's projects. It's particularly good at this because it's set up to keep the code neat and managed though _Version Control_. Which means that if someone makes a mistake or add a change that breaks the code, you can roll back the change. And if anyone wants to fix a bug or add something, they can ask permission to do so with a _pull request_, and the owner of the project can accept and _merge_ the pull request or reject it. GitHub's _issues_ tab allows for developers to ask questions, flag bugs, organize work on new features, assign tasks, and more. Projects on GitHub are kept in _repositories_, AKA _repos_, under user or group profiles. The full feature list of git and GitHub are deep and interesting, but we'll start with the handful of ones you'll be using 90% of the time.
 
@@ -76,7 +76,7 @@ If you find yourself skimming or glazing over what you are look at, sit back, cl
 
 If you're still having trouble, open up an issue! :smile: It might be that we're not explaining things well enough. Or it might be a real bug that needs to get fixed. You never know, but if you see something, say something! We can't fix what we don't know about. (And that counts as contributing to open source!)
 
-#### Forking this repository:
+### Forking this repository:
 
 Forking is like copying the files from someone else's folder and pasting them into your own. This Allows you to work on them and make changes without making a mess to someone else's project. When it's time, you'll submit a pull request to have your changes merged back into the master project.
 
@@ -88,7 +88,7 @@ You'll find your forked version of the repo under your own profile with your nam
 
 <a href="https://help.github.com/articles/fork-a-repo/">GitHub's guide to forking</a> is a great place to learn a little more. 
 
-#### Cloning this repository from the command line:
+### Cloning this repository from the command line:
 
 Cloning is like forking your own repo. It makes a copy from the GitHub website to your local computer so that you can edit the files and _push_ the changes back to your repo on GitHub.
 
@@ -110,13 +110,83 @@ Having trouble?
  - Still having trouble? 
  - Open up an issue! :smile: We're here to help you help us!
 
-#### Getting setup with the Atom code editor:
+### Using a python simpleHTTPserver:
 
-#### Using a python simpleHTTPserver:
+A python simple HTTP server is a quick way of hosting pages like the fsla map page. It is our way of an important step in web development:
+__Get the App running Locally on your computer.__
 
-#### Committing and pushing your improvements back to GitHub
+Doing this allows you to inspect the code in a prodiction-like environment, experiment and find solutions without messing with the app that users are using.
 
-#### Making a pull request to get your changes merged into the master repository
+Could you just open the index.html in Chrome or your favoire browser? Yes. But using Python's Simple Server has some benefits. suppose you want to see what the page looks like on a mobile device? You can do that with the simple server.
+
+ 1. First check to make sure your computer has python installed:
+
+  `$ python --version`
+  
+   You should see something like `Python 2.7.12` the version number isn't important. Just that it doesn't return a error and say something like `I don't know what you talkin' 'bout.` 
+   
+   If you don't have it, you'll need to google "Install Python" and find out how to get python on your computer.
+
+ 2. If python is installed:
+
+  Make sure you're in the fsla directory, then use this command:
+  
+  `$ python -m SimpleHTTPServer 8000`
+  
+  It should say `Serving HTTP on 0.0.0.0 port 8000 ...`
+
+ 3. Go to Chrome or your browser of choice and enter:
+
+  `http://localhost:8000/`
+  
+  You should now see the fsla map page.
+
+Don't see it? Getting an error? 
+ 1. Check your spelling. 
+ 2. Check again that you followed the instructions to the letter. 
+ 3. Google for answers. 
+ 4. Check out <a href ="https://docs.python.org/2/library/simplehttpserver.html#module-SimpleHTTPServer">the docs</a> (Remember to read. Don't let your eyes glaze-over.)
+ 5. Open up an issue :smile:
+
+To see the page on mobile, go into your computer's settings and find it's IP Address. It might be something like `192.168.0.1`.
+
+Type `http://` *plus* the IP Address into your mobile device's web browser *plus* the port number (:8000/). It should look something like `https://192.168.0.1:8000/` But with *YOUR_IP_ADDRESS*.
+
+You should now be seeing what the site looks like on mobile!
+
+### Learning Chrome DevTools:
+
+Being able to inspect, debug and make changes in the browser with active code is a big advantage. 
+
+We're using Chrome, but if you already know the tools of another browser, that's cool too.
+<a href="http://discover-devtools.codeschool.com/">This course</a> teaches the basics of DevTools. Go through at least the first 3 or 4 courses.
+
+### Getting setup with Atom:
+
+There are a plethora of code editors out there. If you don't already have a favorite, try Atom. It's Free, Open Source, and intuitive for beginners.
+
+<a href="https://atom.io/">Atom's website</a>
+<a href="http://flight-manual.atom.io/getting-started/sections/installing-atom/">Instructions for installing Atom</a>
+
+Questions? Confusions? Try googling! You're probably not the only one whose had your issue.
+
+Still stymied? Open up an Issue! :Smile:
+
+### Committing and pushing your improvements back to GitHub
+
+In between this step and the last one, is where the magic happens. Hopefully you worked on an issue, or found a bug, or made an improvement of some kind. You've saved that locally. Now you're ready to hand that off to the project and get mad props and respect for being an awesome person who makes quality contributions to open source projects!
+
+You will need to first push your changes to your fork of the project.
+ 1. From the command line, make sure you're in the fsla directory.
+ 2. `$ git status` This will generate a list of changed files and deleted files. Any files added will be in a separate section. You will have to add them to the project with `$ git add MY_NEW_FILE`. Otherwise they will not be pushed to your repository.
+ 3. `$ git commit -a` There are other ways to do this, but this is my favorite and its simple. Hitting enter will pull up your default editor. Type a short message in present tense with the verb in front, like `fix annoying bug` or `add awesome new feature`. Save and exit.
+ 4. `$ git push origin master` at this point, you will be prompted with your github username and password unless you've set that up to be handled automatically. Type them in and there you have it!
+ 
+Congratulations! You've pushed a useful contribution to GitHub!
+
+### Making a pull request to get your changes merged into the master repository
+
+The last step is getting the improvement from your repo to the project master. That's done with a pull request.
 
 ***
 ### The Scrum Team:
