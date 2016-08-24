@@ -174,7 +174,7 @@ Still stymied? Open up an Issue! :Smile:
 
 ### Committing and pushing your improvements back to GitHub
 
-In between this step and the last one, is where the magic happens. Hopefully you worked on an issue, or found a bug, or made an improvement of some kind. You've saved that locally. Now you're ready to hand that off to the project and get mad props and respect for being an awesome person who makes quality contributions to open source projects!
+In between this step and the last one is where the magic happens. Hopefully you worked on an issue, or found a bug, or made an improvement of some kind. You've saved that locally. Now you're ready to hand that off to the project and get mad props and respect for being an awesome person who makes quality contributions to open source projects!
 
 You will need to first push your changes to your fork of the project.
  1. From the command line, make sure you're in the fsla directory.
@@ -186,7 +186,31 @@ Congratulations! You've pushed a useful contribution to GitHub!
 
 ### Making a pull request to get your changes merged into the master repository
 
-The last step is getting the improvement from your repo to the project master. That's done with a pull request.
+The last step is getting the improvement from your repo to the project master. That's done with a pull request on GitHub.
+
+In the browser, and on _your repo_, click `New pull request`
+![1newpullrequest](https://cloud.githubusercontent.com/assets/14797009/17948116/4a565298-6a04-11e6-9f03-774142fd3977.png)
+
+That will take you to this screen. Just like adding a commit message to a push, you're going to add a short title to your pull request. It's good manners to include a description of the changes, any links to issues, etc, along with a screenshot. 
+
+You can accomplish screenshots by dragging the picture from your files into the text box. GitHub will upload your screenshot to the cloud and put in the appropriate markdown syntax so that it will display. 
+
+Then click `Create pull request`
+![2openpull](https://cloud.githubusercontent.com/assets/14797009/17948117/4be54254-6a04-11e6-9d28-b57533c3e1d1.png)
+
+Congratulations! you've made a pull request! But there are still a few more things you can do before it gets inspected and (hopefully) merged by the project owner.
+![3theopenrequest](https://cloud.githubusercontent.com/assets/14797009/17948121/4dc03ee4-6a04-11e6-950f-a5d62c548383.png)
+
+If you scroll down, you can see the individual commits that are part of the pull request. The numbers on the end are the SHA (Pronounced "shah"), git's unique code for version control of every committed change. You can click on them and add comments to specific lines you'd like the dev team to pay attention to. 
+![4pullcommits](https://cloud.githubusercontent.com/assets/14797009/17948123/502e84ce-6a04-11e6-9d1f-66da619f3902.png)
+
+You can also have conversations about those solutions, issues or other alternatives, just like you do in `Issues`, but at a greater degree of granularity.
+![5linecomment](https://cloud.githubusercontent.com/assets/14797009/17948124/5248b626-6a04-11e6-8492-ac182e0fc272.png)
+
+Finally, if all goes well, the project owner will accept your pull request. When you see this screen, you may rejoice!
+![6merged](https://cloud.githubusercontent.com/assets/14797009/17948129/55028af4-6a04-11e6-824b-3557996d98bd.png)
+
+If you've been following along, congratulations on making a contribution to OSS using The Command Line, git, GitHub, Version Control, Python SimpleHTTPServer, Atom, DevTools, Scrum, and Pair Programming! (Quite a list!) Go out and celebrate at the local pharmacy with nachos and a cherry phosphate! You've earned it! :sparkles::thumbsup::sparkles:
 
 ***
 ### The Scrum Team:
