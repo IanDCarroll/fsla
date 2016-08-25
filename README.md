@@ -219,3 +219,6 @@ If you've been following along, congratulations on making a contribution to OSS 
 - <a href="https://github.com/IanDCarroll">@IanDCarroll</a> - Development Team, ScrumMaster, Doccumentarian, Editorial Writer
 - <a href="https://github.com/thebearingedge">@thebearingedge</a> - Development Team
 - <a href="https://github.com/caseytherocket">@caseytherocket</a> - Development Team
+- <a href="https://github.com/benjaminma">@benjaminma</a> - Development Team
+- <a href="https://github.com/xuhdev">@xuhdev</a> - Development Team
+- <a href="https://github.com/leighphan">@leighphan</a> - Development Team
