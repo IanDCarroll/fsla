@@ -17,7 +17,29 @@ body {
         padding: 10px 25px 25px;
         height: 88%;
         width: 38%;
+        /* min-width: min(280px, 100vw); */
+        min-width: 280px;
         overflow:auto
+}
+
+@media (max-width: 280px) {
+    #info {
+        min-width: 90vw;
+    }
+}
+
+#info-toggle-button {
+    top: 5%;
+    right: 5%;
+    position: fixed;
+    z-index: 100;
+    border: none;
+    border-radius: 10em;
+    border-color: #2A3C24;
+    border-style: solid;
+    border-width: 4px;
+    background-color: #741F2B;
+    color: #DAD593;
 }
 
 #map { 
