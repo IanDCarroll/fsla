@@ -115,7 +115,7 @@ Having trouble?
 A python simple HTTP server is a quick way of hosting pages like the fsla map page. It is our way of an important step in web development:
 __Get the App running Locally on your computer.__
 
-Doing this allows you to inspect the code in a prodiction-like environment, experiment and find solutions without messing with the app that users are using.
+Doing this allows you to inspect the code in a production-like environment, experiment and find solutions without messing with the app that users are using.
 
 Could you just open the index.html in Chrome or your favoire browser? Yes. But using Python's Simple Server has some benefits. suppose you want to see what the page looks like on a mobile device? You can do that with the simple server.
 
