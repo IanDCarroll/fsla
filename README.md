@@ -14,6 +14,8 @@ Inside the Scrum framework, we will be using __Pair Programming__, a practice of
 
 <a href="http://developingian.com/pairing-on-a-map-page/">Here is a blog article</a> explaining the story of the meetup map page's development, and an experience of pair programming so you can get a taste of what it is like if you are new to it.
 
+<a href="https://www.topbug.net/blog/2016/08/27/optimization-for-mobile-a-pair-programming-story-at-fullstackla/">Here is another blog</a> by <a href="https://github.com/xuhdev">__@xudev__</a> on the project's second pairing.
+
 ### How's it put together?
 
 The page is HTML, CSS, and JavaScript. For the front-end, this triad of languages is what you need to have a page. Sure, you can have a page with just HTML, but it's boring and ugly.
@@ -31,9 +33,8 @@ __JSON__ is a data format that is created out of JavaScript Objects; associated 
 
 ### What needs to be done next?
 
-Please View the issues for stories to work on.
+Please View the issues for stories to work on. Look for Yellow ones that say "Stories".
 If you want to propose an improvement, identify a bug, or otherwise suggest something to improve, please open up a new issue.
-Or for the complete Product Backlog <a href+"https://www.pivotaltracker.com/n/projects/1787469">check out our Pivotal Tracker</a>
 
 We also need to populate the product backlog, and identify high value stories to work on next sprint.
 
@@ -115,7 +116,7 @@ Having trouble?
 A python simple HTTP server is a quick way of hosting pages like the fsla map page. It is our way of an important step in web development:
 __Get the App running Locally on your computer.__
 
-Doing this allows you to inspect the code in a prodiction-like environment, experiment and find solutions without messing with the app that users are using.
+Doing this allows you to inspect the code in a production-like environment, experiment and find solutions without messing with the app that users are using.
 
 Could you just open the index.html in Chrome or your favoire browser? Yes. But using Python's Simple Server has some benefits. suppose you want to see what the page looks like on a mobile device? You can do that with the simple server.
 
@@ -219,3 +220,6 @@ If you've been following along, congratulations on making a contribution to OSS 
 - <a href="https://github.com/IanDCarroll">@IanDCarroll</a> - Development Team, ScrumMaster, Doccumentarian, Editorial Writer
 - <a href="https://github.com/thebearingedge">@thebearingedge</a> - Development Team
 - <a href="https://github.com/caseytherocket">@caseytherocket</a> - Development Team
+- <a href="https://github.com/benjaminma">@benjaminma</a> - Development Team
+- <a href="https://github.com/xuhdev">@xuhdev</a> - Development Team, Blogger
+- <a href="https://github.com/leighphan">@leighphan</a> - Development Team
