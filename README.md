@@ -43,8 +43,8 @@ __JSON__ is a data format that is created out of JavaScript Objects; associated 
 
 If you want to propose an improvement, identify a bug, or otherwise suggest something to improve, please <a href="https://github.com/IanDCarroll/fsla/issues/new">open up a new issue.</a>
 
-Found a typo? <a href="https://github.com/IanDCarroll/fsla/issues/28">Report it!</a>
-Confused by these instructions? <a href="https://github.com/IanDCarroll/fsla/issues/36">Report it!</a>
+- Found a typo? <a href="https://github.com/IanDCarroll/fsla/issues/28">Report it!</a>
+- Confused by these instructions? <a href="https://github.com/IanDCarroll/fsla/issues/36">Report it!</a>
 
 Here is a handy overview of <a href="https://guides.github.com/features/issues/">GitHub issues and how to work them.</a>
 
