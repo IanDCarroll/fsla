@@ -1,4 +1,5 @@
 # __The FullStack LA Local Meetup Map Page__
+<a href="https://iandcarroll.github.io/fsla/">Click here to check it out!</a>
 
 ### What is it good for?
 
@@ -6,9 +7,14 @@ This is a hub for information about LA Meetups so that people can see what's up,
 
 ### How are we doing it?
 
-We will be scrumming this project. __Scrum__ is an __Agile__ framework, one of a series of dove-tailing practices derrived from on-the-job experience in development to make the creation process collaborative, organized, iterative, changeable, and overall fun. Another important Agile methodology we use is __Extreme Programming.__
+We will be scrumming this project as best we can in a voluntary open-source way. __Scrum__ is an __Agile__ framework, one of a series of dove-tailing practices derrived from on-the-job experience in development to make the creation process collaborative, organized, iterative, changeable, and overall fun. Another important Agile methodology we use is __Extreme Programming.__
 
 - Blog post introducing Scrum to come... watch this space.
+- <a href="http://agilemanifesto.org/">This is the Agile Manifesto</a> If you do nothing else, take a look a this.
+- <a href="https://www.scrumalliance.org/why-scrum/core-scrum-values-roles">These are the Scrum Values</a>
+- <a href="http://www.scrumguides.org/">This is the Scrum Guide</a>
+- Optional: For more context, <a href="http://www.barnesandnoble.com/w/lean-startup-eric-ries/1100642052?ean=9780307887894">Check out this book at your local public library</a>
+- Optional: <a href="http://www.barnesandnoble.com/w/learning-agile-andrew-stellman/1124330550?ean=9781449331924">This book</a> gives a more detailed overview of Agile after that.
 
 Inside the Scrum framework, we will be using __Pair Programming__, a practice of Extreme Programming where there are two developers working together on a single issue with a single computer. Pair Programming is great fun, produces results faster than two individual developers working on two seperate issues, and is a high-powered way to learn more about software development.
 
@@ -33,10 +39,18 @@ __JSON__ is a data format that is created out of JavaScript Objects; associated 
 
 ### What needs to be done next?
 
-Please View the issues for stories to work on. Look for Yellow ones that say "Stories".
-If you want to propose an improvement, identify a bug, or otherwise suggest something to improve, please open up a new issue.
+<a href="https://github.com/IanDCarroll/fsla/labels/User%20Story">Please View the issues</a> for stories to work on. As a pair, pick an issue you both want to work on, comment (both of you) and assign yourselves the task.
 
-We also need to populate the product backlog, and identify high value stories to work on next sprint.
+If you want to propose an improvement, identify a bug, or otherwise suggest something to improve, please <a href="https://github.com/IanDCarroll/fsla/issues/new">open up a new issue.</a>
+
+Found a typo? <a href="https://github.com/IanDCarroll/fsla/issues/28">Report it!</a>
+Confused by these instructions? <a href="https://github.com/IanDCarroll/fsla/issues/36">Report it!</a>
+
+Here is a handy overview of <a href="https://guides.github.com/features/issues/">GitHub issues and how to work them.</a>
+
+We also need to populate the product backlog, and identify high value stories to work on next sprint. Open up an issue with potential ideas for where we can go next.
+
+***
 
 ## Getting Setup:
 
@@ -56,7 +70,7 @@ After that, check out <a href="https://www.codecademy.com/learn/learn-the-comman
 
 Once you've gotten about half-way through that, "No more training do you require. Already know you, that which you need." Proceed to getting set up with git and GitHub.
 
-If you have any questions about how to do something in the command line, go to google and search it. For example, suppose you forget how to make a new folder with the command line, start by searching `terminal make a new folder`. It won't give you a perfect answer immediately. You will have to be calm, aware and patient with yourself. And you must remember to _read what you look at!_. Googling is a skill in and of itself. But you can find out a lot this way. 
+If you have any questions about how to do something in the command line, go to google and search it. For example, suppose you forget how to make a new folder with the command line, start by searching `terminal make a new folder`. It won't give you a perfect answer immediately. You will have to be calm, aware and patient with yourself. And you must remember to _read what you look at!_ Googling is a skill in and of itself. But you can find out a lot this way. 
 
 "For my ally is the google search, and a powerful ally it is!" -Some wise old puppet
 
