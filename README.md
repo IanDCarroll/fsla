@@ -9,7 +9,7 @@ This is a hub for information about LA Meetups so that people can see what's up,
 
 We will be scrumming this project as best we can in a voluntary open-source way. __Scrum__ is an __Agile__ framework, one of a series of dove-tailing practices derrived from on-the-job experience in development to make the creation process collaborative, organized, iterative, changeable, and overall fun. Another important Agile methodology we use is __Extreme Programming.__
 
-- Blog post introducing Scrum to come... watch this space.
+- <a href="http://developingian.com/scrum-for-oss-meetup-contributors/">Here is a blog post</a> introducing scrum, and how it works in our context.
 - <a href="http://agilemanifesto.org/">This is the Agile Manifesto</a> If you do nothing else, take a look a this.
 - <a href="https://www.scrumalliance.org/why-scrum/core-scrum-values-roles">These are the Scrum Values</a>
 - <a href="http://www.scrumguides.org/">This is the Scrum Guide</a>
