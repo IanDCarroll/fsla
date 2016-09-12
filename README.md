@@ -20,7 +20,7 @@ Inside the Scrum framework, we will be using __Pair Programming__, a practice of
 
 <a href="http://developingian.com/pairing-on-a-map-page/">Here is a blog article</a> explaining the story of the meetup map page's development, and an experience of pair programming so you can get a taste of what it is like if you are new to it.
 
-<a href="https://www.topbug.net/blog/2016/08/27/optimization-for-mobile-a-pair-programming-story-at-fullstackla/">Here is another blog</a> by <a href="https://github.com/xuhdev">__@xudev__</a> on the project's second pairing.
+<a href="https://www.topbug.net/blog/2016/08/27/optimization-for-mobile-a-pair-programming-story-at-fullstackla/">Here is another blog</a> by <a href="https://github.com/xuhdev">__@xuhdev__</a> on the project's second pairing.
 
 ### How's it put together?
 
