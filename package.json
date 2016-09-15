@@ -1,0 +1,19 @@
+{
+  "name": "fsla",
+  "version": "1.0.0",
+  "description": "<a href=\"https://iandcarroll.github.io/fsla/\">Click here to check it out!</a>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanDCarroll/fsla.git"
+  },
+  "author": "Ian D. Carroll <ian.d.carroll@gmail.com> (http://developingian.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IanDCarroll/fsla/issues"
+  },
+  "homepage": "https://github.com/IanDCarroll/fsla#readme"
+}
