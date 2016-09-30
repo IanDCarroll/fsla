@@ -9,11 +9,12 @@ This is a hub for information about LA Meetups so that people can see what's up,
 
 We will be scrumming this project as best we can in a voluntary open-source way. __Scrum__ is an __Agile__ framework, one of a series of dove-tailing practices derrived from on-the-job experience in development to make the creation process collaborative, organized, iterative, changeable, and overall fun. Another important Agile methodology we use is __Extreme Programming.__
 
-- <a href="http://developingian.com/scrum-for-oss-meetup-contributors/">Here is a blog post</a> introducing scrum, and how it works in our context.
 - <a href="http://agilemanifesto.org/">This is the Agile Manifesto</a> If you do nothing else, take a look a this.
+- <a href=http://developingian.com/scrum-explained-in-300-seconds-or-less/>Scrum explained</a> in 300 seconds or less
+- <a href="http://developingian.com/scrum-for-oss-meetup-contributors/">Here is a blog post</a> introducing scrum, and how it works in our context.
 - <a href="https://www.scrumalliance.org/why-scrum/core-scrum-values-roles">These are the Scrum Values</a>
 - <a href="http://www.scrumguides.org/">This is the Scrum Guide</a>
-- Optional: For more context, <a href="http://www.barnesandnoble.com/w/lean-startup-eric-ries/1100642052?ean=9780307887894">Check out this book at your local public library</a>
+- Optional: For more context, <a href="https://37signals.com/rework">Check out this book at your local public library</a>
 - Optional: <a href="http://www.barnesandnoble.com/w/learning-agile-andrew-stellman/1124330550?ean=9781449331924">This book</a> gives a more detailed overview of Agile after that.
 
 Inside the Scrum framework, we will be using __Pair Programming__, a practice of Extreme Programming where there are two developers working together on a single issue with a single computer. Pair Programming is great fun, produces results faster than two individual developers working on two seperate issues, and is a high-powered way to learn more about software development.
@@ -180,12 +181,12 @@ We're using Chrome, but if you already know the tools of another browser, that's
 
 There are a plethora of code editors out there. If you don't already have a favorite, try Atom. It's Free, Open Source, and intuitive for beginners.
 
-<a href="https://atom.io/">Atom's website</a>
-<a href="http://flight-manual.atom.io/getting-started/sections/installing-atom/">Instructions for installing Atom</a>
+- <a href="https://atom.io/">Atom's website</a>
+- <a href="http://flight-manual.atom.io/getting-started/sections/installing-atom/">Instructions for installing Atom</a>
 
 Questions? Confusions? Try googling! You're probably not the only one whose had your issue.
 
-Still stymied? Open up an Issue! :Smile:
+Still stymied? Open up an Issue! :smile:
 
 ### Committing and pushing your improvements back to GitHub
 
