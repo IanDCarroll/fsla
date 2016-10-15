@@ -238,3 +238,6 @@ If you've been following along, congratulations on making a contribution to OSS 
 - <a href="https://github.com/benjaminma">@benjaminma</a> - Development Team
 - <a href="https://github.com/xuhdev">@xuhdev</a> - Development Team, Blogger
 - <a href="https://github.com/leighphan">@leighphan</a> - Development Team
+- <a href ="https://github.com/dzhonapp">@dzhonapp</a> - Development Team
+- <a href ="https://github.com/oraz23">@oraz23</a> - Development Team
+
