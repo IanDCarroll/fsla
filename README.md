@@ -15,7 +15,7 @@ We will be scrumming this project as best we can in a voluntary open-source way.
 - <a href="https://www.scrumalliance.org/why-scrum/core-scrum-values-roles">These are the Scrum Values</a>
 - <a href="http://www.scrumguides.org/">This is the Scrum Guide</a>
 - Optional: For more context, <a href="https://37signals.com/rework">Check out this book at your local public library</a>
-- Optional: <a href="http://www.barnesandnoble.com/w/learning-agile-andrew-stellman/1124330550?ean=9781449331924">This book</a> gives a more detailed overview of Agile after that.
+- Optional: This book gives a more <a href="http://www.barnesandnoble.com/w/learning-agile-andrew-stellman/1124330550?ean=9781449331924"> detailed overview of Agile </a> after that.
 
 Inside the Scrum framework, we will be using __Pair Programming__, a practice of Extreme Programming where there are two developers working together on a single issue with a single computer. Pair Programming is great fun, produces results faster than two individual developers working on two seperate issues, and is a high-powered way to learn more about software development.
 
